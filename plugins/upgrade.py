@@ -21,7 +21,7 @@ async def upgrade(bot,update):
 	Price Rs 206  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ```7808912076@paytm```
+	  
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @FM_ONR"""
@@ -57,6 +57,6 @@ async def upgradecm(bot,message):
         Payment To Admin @FM_ONR"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/SYRUS_143_HPY")], 
-        			[InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("Gpay",url = "https://upier.vercel.app/pay/sandipakumar0911@okhdfcbank"),
+        			InlineKeyboardButton("Gpay",url = "https://upier.vercel.app/pay/sandipakumar0911@okhdfcbank")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
