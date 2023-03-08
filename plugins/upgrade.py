@@ -24,11 +24,11 @@ async def upgrade(bot,update):
 	Pay Using Upi I'd ```7808912076@paytm```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @FM_ONR"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mRiderDM")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/SYRUS_143_HPY")], 
+        			[InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9"),
+        			InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -54,9 +54,9 @@ async def upgradecm(bot,message):
 	Pay Using Upi I'd ```7808912076@paytm```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @FM_ONR"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mRiDerDM")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/SYRUS_143_HPY")], 
+        			[InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9"),
+        			InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
