@@ -27,8 +27,8 @@ async def upgrade(bot,update):
         Payment To Admin @FM_ONR"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/SYRUS_143_HPY")], 
-        			[InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Gpay",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("Gpay",url = "https://upier.vercel.app/pay/sandipakumar0911@okhdfcbank"),
+        			InlineKeyboardButton("Gpay",url = "https://upier.vercel.app/pay/sandipakumar0911@okhdfcbank")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
