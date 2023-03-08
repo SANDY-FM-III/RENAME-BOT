@@ -18,7 +18,7 @@ import os
 CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
 ADMIN = int(os.environ.get("ADMIN", ""))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
+bot_username = os.environ.get("BOT_USERNAME","FM_RNM_BOT")
 log_channel = int(os.environ.get("LOG_CHANNEL", ""))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
@@ -50,10 +50,10 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔺", url="https://t.me/filmy_men")],
-                                      [InlineKeyboardButton("🦋 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ 🦋", url="https://t.me/filmy_rog")],
-                                      [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url='https://t.me/filmymenchat'),
-                                      InlineKeyboardButton("ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ", url='https://t.me/filmy_men_on')],
+                                      [[InlineKeyboardButton("🔺ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔺", url="https://t.me/filmy_men")],
+                                      [InlineKeyboardButton("🦋ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ🦋", url="https://t.me/filmy_rog")],
+                                      [InlineKeyboardButton("❤sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ❤", url='https://t.me/filmymenchat'),
+                                      InlineKeyboardButton("💞ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ💞", url='https://t.me/filmy_men_on')],
                                       ])) 
                                       
         return
@@ -107,7 +107,7 @@ async def send_doc(client, message):
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
-            await client.send_message(log_channel,f"🦋 #GangsterBaby_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
+            await client.send_message(log_channel,f"🦋 #Sandy_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
 
